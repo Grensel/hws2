@@ -1,36 +1,70 @@
 .button {
+  padding: 5px 24px;
+  width: 132px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .disabled {
+  background-color: #004d99;
+  opacity: 0.5;
 }
 
 .secondary {
+  width: 176px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 102, 204, 1);
+  color: rgba(0, 102, 204, 1);
 }
 
 .default {
+  background-color: rgba(0, 102, 204, 1);
 }
 
 .red {
+  background-color: rgba(204, 20, 57, 1);
 }
 
 .default:hover {
+  width: 176px;
+  background-color:rgba(0, 128, 255, 1);
 }
 
 .red:hover {
+  width: 176px;
 }
 
 .secondary:hover {
+  background-color: #e5f0fa;
 }
 
 
 .default:active {
+  width: 149px;
+  background-color: rgba(0, 89, 178, 1);
 }
 
 .secondary:active {
+  background-color: rgba(201, 229, 255, 1);
+  width: 149px;
 }
 
 .red:active {
+  background-color: rgba(178, 18, 50, 1);
+  width: 149px;
 }
 
 .button:disabled {
+  background-color: #004d99;
+  opacity: 0.5;
+  color: #002e5c;
+
+  width: 133px;
+  height: 30px;
 }
