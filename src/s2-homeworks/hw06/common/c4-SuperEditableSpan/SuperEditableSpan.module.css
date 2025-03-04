@@ -2,10 +2,27 @@
 }
 
 .span {
+  color: rgba(0, 128, 255, 1);
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+  letter-spacing: 0%;
+  text-transform:capitalize
 }
 
 .input {
+  width: 276px;
+  height: 36px;
+  padding: 8px 24px;
+  border: 1px solid rgba(209, 209, 209, 1);
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
 }
 
 .pen {
+  margin-right: 10px;
 }
