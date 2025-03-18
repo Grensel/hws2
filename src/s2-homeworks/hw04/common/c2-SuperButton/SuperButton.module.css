@@ -1,14 +1,19 @@
 .button {
-  padding: 5px 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 143%;
+  text-transform: capitalize;
+  color: white;
+
+  border-radius: 3px;
+  border: none;
+  background-color: #06c;
+
   width: 132px;
   height: 30px;
-  border: none;
-  border-radius: 3px;
-  font-family: "Montserrat";
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 1);
+
+  padding: 5px 24px;
 }
 
 .disabled {
@@ -17,47 +22,77 @@
 }
 
 .secondary {
-  width: 176px;
+  border: 1px solid #06c;
+  color: #06c;
+
+  width: 132px;
+  height: 30px;
+
   background-color: transparent;
-  border: 1px solid rgba(0, 102, 204, 1);
-  color: rgba(0, 102, 204, 1);
 }
 
 .default {
-  background-color: rgba(0, 102, 204, 1);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  text-transform: capitalize;
+  color: white;
+
+  border-radius: 3px;
+  border: none;
+  background-color: #06c;
+
+  width: 145px;
+  height: 30px;
+
+  padding: 5px 24px;
 }
 
 .red {
-  background-color: rgba(204, 20, 57, 1);
+  background-color: #cc1439;
 }
 
 .default:hover {
   width: 176px;
-  background-color:rgba(0, 128, 255, 1);
+  height: 30px;
+
+  background-color: #0080ff;
 }
 
 .red:hover {
   width: 176px;
+  height: 30px;
+
+  background-color: #ff1a47;
 }
 
 .secondary:hover {
+  width: 176px;
+  height: 30px;
+
   background-color: #e5f0fa;
 }
 
-
 .default:active {
   width: 149px;
-  background-color: rgba(0, 89, 178, 1);
+  height: 30px;
+
+  background-color: #0059b2;
 }
 
 .secondary:active {
-  background-color: rgba(201, 229, 255, 1);
   width: 149px;
+  height: 30px;
+
+  background-color: #c9e5ff;
 }
 
 .red:active {
-  background-color: rgba(178, 18, 50, 1);
   width: 149px;
+  height: 30px;
+
+  background-color: #b21232;
 }
 
 .button:disabled {
