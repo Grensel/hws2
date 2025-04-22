@@ -9,8 +9,8 @@
   flex-direction: column;
   margin: 10px 0px 30px;
   min-height: 372px;
-  gap: 30px;
-  padding: 24px 70px 35px;
+  gap: 12px;
+  padding: 33px 70px 35px;
 }
 .hw::before {
   content: "";
@@ -41,3 +41,4 @@
   font-weight: 600;
   line-height: 26.82px;
 }
+
