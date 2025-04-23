@@ -5,12 +5,13 @@
   line-height: 143%;
   text-transform: capitalize;
   color: white;
+  white-space: nowrap;
 
   border-radius: 3px;
   border: none;
   background-color: #06c;
 
-  width: 132px;
+  min-width: 132px;
   height: 30px;
 
   padding: 5px 24px;
@@ -25,7 +26,6 @@
   border: 1px solid #06c;
   color: #06c;
 
-  width: 132px;
   height: 30px;
 
   background-color: transparent;
@@ -103,3 +103,4 @@
   width: 133px;
   height: 30px;
 }
+
