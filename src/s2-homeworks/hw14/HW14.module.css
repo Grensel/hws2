@@ -1,7 +1,23 @@
 .tech {
-
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
 }
 
 .loading {
-
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+  width: 370px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(77, 77, 77, 1);
 }
+
+._input_1795r_1:hover {
+  border: 1px solid red;
+}
+
