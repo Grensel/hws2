@@ -1,6 +1,4 @@
-import React from 'react'
 import { pureChange } from '../SuperSort'
-import { expect, test } from "vitest";
 
 test('sort ""', () => {
     const newSort = pureChange('', '1a', '0a')
